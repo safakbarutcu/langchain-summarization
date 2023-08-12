@@ -57,7 +57,7 @@ with st.form("summarization"):
 
 			loader = WebBaseLoader(webpage_url)
 
-			docs = loader.load()
+			docs = loader.load_and_split()
 
 			llm = ChatOpenAI(openai_api_key=openai_key, temperature=0.2)
 
