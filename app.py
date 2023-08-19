@@ -13,8 +13,9 @@ st.header('📄 Summarization and Useful Chain Types')
 
 st.subheader('Learn LangChain | Demo Project #3')
 
+st.success("This is a demo project related to the [Learn LangChain](https://learnlangchain.org/) mini-course.")
+
 st.write('''
-This is a demo project related to the [Learn LangChain](https://learnlangchain.org/) mini-course.
 In the [previous tutorial](https://langchain-basic-qna.streamlit.app/) we built a Question&Answering
 system over a custom PDF, and we used the RetrievalQA chain, one of the many built-in chains.
 ''')
